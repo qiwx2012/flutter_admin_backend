@@ -5,9 +5,13 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     #配置数据库连接
-    url: jdbc:mysql://cairuoyu.com:3306/sid?serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
-    username: us
-    password: ps
+    url: jdbc:mysql://localhost:3306/flutter_web_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&useAffectedRows=true&allowMultiQueries=true
+    username: root
+    password: 123456
+
+#    url: jdbc:mysql://cairuoyu.com:3306/sid?serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
+#    username: us
+#    password: ps
     hikari:
       max-lifetime: 60000
   jackson:
