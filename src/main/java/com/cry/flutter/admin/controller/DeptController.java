@@ -24,7 +24,6 @@ import java.util.List;
  * @github: https://github.com/cairuoyu/flutter_admin_backend
  * @since 2021-03-11
  */
-
 @CrossOrigin(origins = {"*"})
 @RestController
 @RequestMapping("/dept")
