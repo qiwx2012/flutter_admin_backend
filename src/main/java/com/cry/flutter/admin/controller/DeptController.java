@@ -29,7 +29,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/dept")
 public class DeptController {
-
     @Resource(name = "deptServiceImpl")
     IDeptService deptService;
 
