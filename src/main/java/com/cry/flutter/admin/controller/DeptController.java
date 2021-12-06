@@ -43,7 +43,6 @@ public class DeptController {
         return new ResponseBodyApi<>(deptService.list(new QueryWrapper<Dept>().lambda()
                 .orderByAsc(Dept::getOrderBy)));
     }
-
     @PostMapping("saveOrUpdate")
     public ResponseBodyApi saveOrUpdate(@RequestBody Dept dept) {
         deptService.saveOrUpdate(dept);
